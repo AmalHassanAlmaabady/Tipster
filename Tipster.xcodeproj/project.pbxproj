@@ -13,9 +13,9 @@
 		03D4D135291D1C780084525E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D4D133291D1C780084525E /* Main.storyboard */; };
 		03D4D137291D1C7C0084525E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D4D136291D1C7C0084525E /* Assets.xcassets */; };
 		03D4D13A291D1C7C0084525E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D4D138291D1C7C0084525E /* LaunchScreen.storyboard */; };
-		03D4D145291D1C7C0084525E /* Assignment14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4D144291D1C7C0084525E /* Assignment14Tests.swift */; };
-		03D4D14F291D1C7D0084525E /* Assignment14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4D14E291D1C7D0084525E /* Assignment14UITests.swift */; };
-		03D4D151291D1C7D0084525E /* Assignment14UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4D150291D1C7D0084525E /* Assignment14UITestsLaunchTests.swift */; };
+		03D4D145291D1C7C0084525E /* TipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4D144291D1C7C0084525E /* TipsterTests.swift */; };
+		03D4D14F291D1C7D0084525E /* TipsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4D14E291D1C7D0084525E /* TipsterUITests.swift */; };
+		03D4D151291D1C7D0084525E /* TipsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4D150291D1C7D0084525E /* TipsterUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D4D12A291D1C780084525E /* Assignment14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D4D12A291D1C780084525E /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D4D12D291D1C780084525E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03D4D12F291D1C780084525E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03D4D131291D1C780084525E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +44,11 @@
 		03D4D136291D1C7C0084525E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D4D139291D1C7C0084525E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03D4D13B291D1C7C0084525E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03D4D140291D1C7C0084525E /* Assignment14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment14Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03D4D144291D1C7C0084525E /* Assignment14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment14Tests.swift; sourceTree = "<group>"; };
-		03D4D14A291D1C7D0084525E /* Assignment14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03D4D14E291D1C7D0084525E /* Assignment14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment14UITests.swift; sourceTree = "<group>"; };
-		03D4D150291D1C7D0084525E /* Assignment14UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment14UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03D4D140291D1C7C0084525E /* TipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D4D144291D1C7C0084525E /* TipsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterTests.swift; sourceTree = "<group>"; };
+		03D4D14A291D1C7D0084525E /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D4D14E291D1C7D0084525E /* TipsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterUITests.swift; sourceTree = "<group>"; };
+		03D4D150291D1C7D0084525E /* TipsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 		03D4D121291D1C780084525E = {
 			isa = PBXGroup;
 			children = (
-				03D4D12C291D1C780084525E /* Assignment14 */,
-				03D4D143291D1C7C0084525E /* Assignment14Tests */,
-				03D4D14D291D1C7D0084525E /* Assignment14UITests */,
+				03D4D12C291D1C780084525E /* Tipster */,
+				03D4D143291D1C7C0084525E /* TipsterTests */,
+				03D4D14D291D1C7D0084525E /* TipsterUITests */,
 				03D4D12B291D1C780084525E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		03D4D12B291D1C780084525E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03D4D12A291D1C780084525E /* Assignment14.app */,
-				03D4D140291D1C7C0084525E /* Assignment14Tests.xctest */,
-				03D4D14A291D1C7D0084525E /* Assignment14UITests.xctest */,
+				03D4D12A291D1C780084525E /* Tipster.app */,
+				03D4D140291D1C7C0084525E /* TipsterTests.xctest */,
+				03D4D14A291D1C7D0084525E /* TipsterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03D4D12C291D1C780084525E /* Assignment14 */ = {
+		03D4D12C291D1C780084525E /* Tipster */ = {
 			isa = PBXGroup;
 			children = (
 				03D4D12D291D1C780084525E /* AppDelegate.swift */,
@@ -107,32 +107,32 @@
 				03D4D138291D1C7C0084525E /* LaunchScreen.storyboard */,
 				03D4D13B291D1C7C0084525E /* Info.plist */,
 			);
-			path = Assignment14;
+			path = Tipster;
 			sourceTree = "<group>";
 		};
-		03D4D143291D1C7C0084525E /* Assignment14Tests */ = {
+		03D4D143291D1C7C0084525E /* TipsterTests */ = {
 			isa = PBXGroup;
 			children = (
-				03D4D144291D1C7C0084525E /* Assignment14Tests.swift */,
+				03D4D144291D1C7C0084525E /* TipsterTests.swift */,
 			);
-			path = Assignment14Tests;
+			path = TipsterTests;
 			sourceTree = "<group>";
 		};
-		03D4D14D291D1C7D0084525E /* Assignment14UITests */ = {
+		03D4D14D291D1C7D0084525E /* TipsterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				03D4D14E291D1C7D0084525E /* Assignment14UITests.swift */,
-				03D4D150291D1C7D0084525E /* Assignment14UITestsLaunchTests.swift */,
+				03D4D14E291D1C7D0084525E /* TipsterUITests.swift */,
+				03D4D150291D1C7D0084525E /* TipsterUITestsLaunchTests.swift */,
 			);
-			path = Assignment14UITests;
+			path = TipsterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03D4D129291D1C780084525E /* Assignment14 */ = {
+		03D4D129291D1C780084525E /* Tipster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03D4D154291D1C7D0084525E /* Build configuration list for PBXNativeTarget "Assignment14" */;
+			buildConfigurationList = 03D4D154291D1C7D0084525E /* Build configuration list for PBXNativeTarget "Tipster" */;
 			buildPhases = (
 				03D4D126291D1C780084525E /* Sources */,
 				03D4D127291D1C780084525E /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = Assignment14;
+			name = Tipster;
 			productName = Assignment14;
-			productReference = 03D4D12A291D1C780084525E /* Assignment14.app */;
+			productReference = 03D4D12A291D1C780084525E /* Tipster.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03D4D13F291D1C7C0084525E /* Assignment14Tests */ = {
+		03D4D13F291D1C7C0084525E /* TipsterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03D4D157291D1C7D0084525E /* Build configuration list for PBXNativeTarget "Assignment14Tests" */;
+			buildConfigurationList = 03D4D157291D1C7D0084525E /* Build configuration list for PBXNativeTarget "TipsterTests" */;
 			buildPhases = (
 				03D4D13C291D1C7C0084525E /* Sources */,
 				03D4D13D291D1C7C0084525E /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				03D4D142291D1C7C0084525E /* PBXTargetDependency */,
 			);
-			name = Assignment14Tests;
+			name = TipsterTests;
 			productName = Assignment14Tests;
-			productReference = 03D4D140291D1C7C0084525E /* Assignment14Tests.xctest */;
+			productReference = 03D4D140291D1C7C0084525E /* TipsterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		03D4D149291D1C7D0084525E /* Assignment14UITests */ = {
+		03D4D149291D1C7D0084525E /* TipsterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03D4D15A291D1C7D0084525E /* Build configuration list for PBXNativeTarget "Assignment14UITests" */;
+			buildConfigurationList = 03D4D15A291D1C7D0084525E /* Build configuration list for PBXNativeTarget "TipsterUITests" */;
 			buildPhases = (
 				03D4D146291D1C7D0084525E /* Sources */,
 				03D4D147291D1C7D0084525E /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				03D4D14C291D1C7D0084525E /* PBXTargetDependency */,
 			);
-			name = Assignment14UITests;
+			name = TipsterUITests;
 			productName = Assignment14UITests;
-			productReference = 03D4D14A291D1C7D0084525E /* Assignment14UITests.xctest */;
+			productReference = 03D4D14A291D1C7D0084525E /* TipsterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03D4D125291D1C780084525E /* Build configuration list for PBXProject "Assignment14" */;
+			buildConfigurationList = 03D4D125291D1C780084525E /* Build configuration list for PBXProject "Tipster" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03D4D129291D1C780084525E /* Assignment14 */,
-				03D4D13F291D1C7C0084525E /* Assignment14Tests */,
-				03D4D149291D1C7D0084525E /* Assignment14UITests */,
+				03D4D129291D1C780084525E /* Tipster */,
+				03D4D13F291D1C7C0084525E /* TipsterTests */,
+				03D4D149291D1C7D0084525E /* TipsterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4D145291D1C7C0084525E /* Assignment14Tests.swift in Sources */,
+				03D4D145291D1C7C0084525E /* TipsterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4D151291D1C7D0084525E /* Assignment14UITestsLaunchTests.swift in Sources */,
-				03D4D14F291D1C7D0084525E /* Assignment14UITests.swift in Sources */,
+				03D4D151291D1C7D0084525E /* TipsterUITestsLaunchTests.swift in Sources */,
+				03D4D14F291D1C7D0084525E /* TipsterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		03D4D142291D1C7C0084525E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03D4D129291D1C780084525E /* Assignment14 */;
+			target = 03D4D129291D1C780084525E /* Tipster */;
 			targetProxy = 03D4D141291D1C7C0084525E /* PBXContainerItemProxy */;
 		};
 		03D4D14C291D1C7D0084525E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03D4D129291D1C780084525E /* Assignment14 */;
+			target = 03D4D129291D1C780084525E /* Tipster */;
 			targetProxy = 03D4D14B291D1C7D0084525E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,7 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment14/Info.plist;
+				INFOPLIST_FILE = Tipster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +449,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = try.Assignment14;
+				PRODUCT_BUNDLE_IDENTIFIER = try.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment14/Info.plist;
+				INFOPLIST_FILE = Tipster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = try.Assignment14;
+				PRODUCT_BUNDLE_IDENTIFIER = try.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -499,7 +499,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment14.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment14";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tipster";
 			};
 			name = Debug;
 		};
@@ -518,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment14.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment14";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tipster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tipster";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03D4D125291D1C780084525E /* Build configuration list for PBXProject "Assignment14" */ = {
+		03D4D125291D1C780084525E /* Build configuration list for PBXProject "Tipster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03D4D152291D1C7D0084525E /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03D4D154291D1C7D0084525E /* Build configuration list for PBXNativeTarget "Assignment14" */ = {
+		03D4D154291D1C7D0084525E /* Build configuration list for PBXNativeTarget "Tipster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03D4D155291D1C7D0084525E /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03D4D157291D1C7D0084525E /* Build configuration list for PBXNativeTarget "Assignment14Tests" */ = {
+		03D4D157291D1C7D0084525E /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03D4D158291D1C7D0084525E /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03D4D15A291D1C7D0084525E /* Build configuration list for PBXNativeTarget "Assignment14UITests" */ = {
+		03D4D15A291D1C7D0084525E /* Build configuration list for PBXNativeTarget "TipsterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03D4D15B291D1C7D0084525E /* Debug */,
